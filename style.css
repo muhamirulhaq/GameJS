@@ -1,0 +1,60 @@
+body {
+    color: white;
+    text-align: center;
+    background: url(assets/wallpaper.jpg);
+    background-size: 100%;
+}
+
+* {
+    cursor: url(assets/cursor.png), auto;
+}
+
+header {
+    padding: 100px 0px 0px;
+    font-size: 25px;
+}
+
+header hr {
+    width: 30%;
+}
+
+.namaGame {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menuGame {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+
+main div h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+main div h2 a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+main div h2 {
+    margin: 10px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.audio {
+    position: fixed;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background: url(assets/wallpaper2.jpg);
+        background-size: 100%;
+    }
+}
